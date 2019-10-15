@@ -1,0 +1,23 @@
+{
+    "name": "garroti/curso-composer",
+    "description": "pacote de exemplo",
+    "type": "library",
+    "require-dev": {
+        "phpunit/phpunit": "^8.4"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Garroti",
+            "email": "gabryelmacedo0@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Garroti\\Curso\\": "src"
+        }
+    },
+    "require": {
+        "monolog/monolog": "^2.0"
+    }
+}
